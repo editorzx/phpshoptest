@@ -1,0 +1,9 @@
+<script>
+        window.alert("ออกจากระบบเรียบร้อย!");
+        window.location='index.php';
+    </script>
+<?php
+session_start();
+session_destroy();
+die();
+?>
